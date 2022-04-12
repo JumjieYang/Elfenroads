@@ -22,7 +22,7 @@ export default class SocketManager {
   private ui: any;
 
   private constructor() {
-    this.socket = io('http://elfenroads.westus3.cloudapp.azure.com:3455/');
+    this.socket = io('');
     this.headers = {
       game: getGame() || 'ElfenlandVer1',
       session_id: getSessionId(),
