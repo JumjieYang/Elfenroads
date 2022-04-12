@@ -1,6 +1,6 @@
 // import {gql} from '@apollo/client';
 import axios from 'axios';
-const URL = 'http://elfenroads.westus3.cloudapp.azure.com:3454/graphql';
+const URL = '';
 
 export const newLSUser = (password: any, name: any) =>
   axios.post(
